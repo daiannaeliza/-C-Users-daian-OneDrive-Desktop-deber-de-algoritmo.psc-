@@ -1,0 +1,29 @@
+body{
+    background: rgb(196, 242, 245);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: -10;
+}
+.logo,.opciones{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+.opciones li{
+    margin: 10px;
+    list-style: none;
+}
+.opciones li a{
+    text-decoration: none;
+    color: rgb(48, 33, 124);
+}
+h1{
+    color: navy;
+    text-align: center;
+    font-style: urbanist;
+}
